@@ -3,4 +3,6 @@
 	pageEncoding="UTF-8"%>
 <%@ page session="false"%>
 
-<div> <label > 网站构建中 约摸着还有1个星期</label></div>
+<div>
+	<label>in...</label>
+</div>

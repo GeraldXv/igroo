@@ -1,0 +1,58 @@
+.green-checks {
+	margin: 30px 0px;
+	list-style: none;
+}
+
+.green-checks li {
+	margin-bottom: 15px;
+	padding-left: 35px;
+	padding-top: 2px;
+	font-size: 15px;
+	background-image: url('../img/green-tick-small.png');
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+}
+
+.green-checks-small {
+	margin: 30px 0px;
+	list-style-image: url('../img/green-tick-small.png');
+	list-style-position: inside;
+}
+
+.green-checks-small li {
+	margin-bottom: 15px;
+	padding-left: 0px;
+	padding-top: 2px;
+	font-size: 15px;
+}
+
+.container {
+	width: 1000px;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	*zoom: 1;
+}
+
+.container:before,.container:after {
+	display: table;
+	content: "";
+}
+
+.container:after {
+	clear: both;
+}
+
+.container>.row {
+	margin-bottom: 40px;
+}
+
+.container>.row>.span4 {
+	width: 270px;
+}
+
+.col1,.col2,.col3 {
+	padding: 25px 0px 25px 25px;
+}
